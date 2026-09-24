@@ -1,7 +1,7 @@
-﻿
+
 :root{
-  --bg:#ececec;
-  --surface:#fff;
+  --bg:#101426;
+  --surface:#171D33;
   --text:#171717;
   --muted:#888;
   --line:#e9e9e9;
@@ -4188,3 +4188,51 @@ main > .region-guide .region-boxes {
 /* Eight-site palette: banana-massage */
 :root{--factory-brand:#CA8A04;--factory-surface:#FEFCE8;}
 a:focus-visible,button:focus-visible{outline:3px solid var(--factory-brand);outline-offset:2px}
+
+
+
+/* === NEW8 DESIGN REFRESH START === */
+:root{
+  --bg:#101426 !important;
+  --surface:#171D33 !important;
+  --text:#FFFCE8 !important;
+  --muted:#E3DA9F !important;
+  --line:#3A4262 !important;
+  --gold:#FACC15 !important;
+  --gold-soft:#232A45 !important;
+  --dark:#0A0E1A !important;
+}
+body,.site{background:#101426!important;color:#FFFCE8!important;}
+.site{box-shadow:0 0 0 1px rgba(255,255,255,.03),0 18px 46px rgba(0,0,0,.22)!important;}
+.header,.drawer,.section-card,.article-main,.article-shell,.region-shell{background:#171D33!important;color:#FFFCE8!important;}
+.header{border-bottom:1px solid #3A4262!important;background:#171D33!important;}
+.hamb,.round-close,.search,.member-actions a,.badge,.sub-box,.article-chip{background:#232A45!important;color:#FFFCE8!important;border-color:#3A4262!important;}
+.hamb span,.search button{background:#EAB308!important;color:#fff!important;}
+.search{border:1px solid #3A4262!important;}
+.search input{color:#FFFCE8!important;background:transparent!important;}
+.search input::placeholder{color:#E3DA9F!important;}
+.logo-copy small,.support small,.nav-group a,.muted,.article-meta,.region-meta,.ml-top-shop-kicker{color:#E3DA9F!important;}
+.mark{background:linear-gradient(145deg,#FACC15,#EAB308)!important;color:#fff!important;box-shadow:0 10px 22px rgba(0,0,0,.22)!important;}
+.member-box,.support,.article-card,.region-card,.faq-card,.notice-card{background:#232A45!important;color:#FFFCE8!important;}
+.drawer-nav,.drawer-nav .single,.nav-group,.section-border,.ml-test-section,.ml-notice-box,.ml-faq-item,.region-list a,.shop-list a{border-color:#3A4262!important;}
+.section,.search-area,.categories-section,.region-grid,.article-main{color:#FFFCE8!important;}
+.categories i,.chip,.pill,.menu-box,.quick-link{background:#232A45!important;color:#FFFCE8!important;}
+.categories a,.section p,.section li,.support p,.article-copy,.region-copy{color:#FFFCE8!important;opacity:.92;}
+.hero-card,.card,.shop-card,.region-card,.article-card,.ml-top-shop-card{background:#232A45!important;color:#FFFCE8!important;border:1px solid #3A4262!important;box-shadow:none!important;}
+.ml-top-shop-copy,.ml-copy,.ml-info-row b,.ml-test-back,.ml-test-hero-bottom span{color:#E3DA9F!important;}
+.ml-top-shop-name,.accent,.article-brand b,.logo-copy b,.ml-test-title,.ml-course-price,.ml-faq-title,.ml-test-loc{color:#FACC15!important;}
+.ml-card-shop-go,.btn,.btn-primary,.member-actions a:hover,.main-link,.region-link{background:#EAB308!important;border-color:#EAB308!important;color:#fff!important;}
+.footer,.article-footer,.site-footer,.company-block{background:#0A0E1A!important;color:#E3DA9F!important;border-top:1px solid #3A4262!important;}
+.section h1,.section h2,.section h3,.drawer-title,.article-title,.region-title{color:#FFFCE8!important;}
+.main-title-section{background:linear-gradient(180deg,#171D33, #101426)!important;}
+.new8-site-hero img{border:1px solid #3A4262!important;box-shadow:0 16px 30px rgba(0,0,0,.20)!important;}
+.overlay{background:rgba(0,0,0,.55)!important;}
+@media (max-width:700px){
+  body,.site{background:#101426!important;}
+}
+#ml-main-recommend-final .mlr-card,#ml-main-recommend-auto .ml-rec-card{background:#232A45!important;color:#FFFCE8!important;border-color:#3A4262!important;}
+#ml-main-recommend-final .mlr-body,#ml-main-recommend-auto .ml-rec-body{background:#232A45!important;color:#FFFCE8!important;}
+#ml-main-recommend-final .mlr-body p,#ml-main-recommend-auto .ml-rec-body p{color:#E3DA9F!important;}
+#ml-main-recommend-final .mlr-thumb span,#ml-main-recommend-auto .ml-rec-image span{background:#FACC15!important;color:#101426!important;}
+#ml-main-recommend-final .mlr-thumb,#ml-main-recommend-auto .ml-rec-image{background:#171D33!important;}
+/* === NEW8 DESIGN REFRESH END === */
